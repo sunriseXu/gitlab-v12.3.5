@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MergeRequestTableRow component on creation matches the snapshot 1`] = `
+<div
+  class="gl-responsive-table-row-layout gl-responsive-table-row"
+>
+  <div
+    class="table-section section-50 d-flex flex-row-reverse flex-md-row justify-content-between justify-content-md-start qa-mr-details"
+  >
+    <div
+      class="d-flex mr-md-2"
+    >
+      <glavatar-stub
+        alt="avatar"
+        entityid="0"
+        entityname=""
+        shape="circle"
+        size="16"
+      />
+    </div>
+     
+    <div
+      class="mw-90p"
+    >
+      <h5
+        class="item-title mr-title my-0 mw-90p d-block str-truncated"
+      >
+        <gllink-stub
+          href="http://gitlab.example.com/gitlab-org/gitlab-test/merge_requests/10"
+          target="_blank"
+        >
+          This is a test MR
+        </gllink-stub>
+      </h5>
+       
+      <ul
+        class="horizontal-list list-items-separated text-secondary"
+      >
+        <li>
+          !10
+        </li>
+         
+        <li>
+          1 commit
+        </li>
+         
+        <li>
+          3 LOC/commit
+        </li>
+         
+        <li>
+          1 files touched
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+  <div
+    class="table-section section-50 d-flex flex-row align-items-start qa-mr-metrics"
+  >
+    <metriccolumn-stub
+      label="Time to merge"
+      type="days_to_merge"
+      value="24"
+    />
+     
+    <metriccolumn-stub
+      label="Time from first comment to last commit"
+      type="time_to_last_commit"
+      value="0"
+    />
+  </div>
+</div>
+`;

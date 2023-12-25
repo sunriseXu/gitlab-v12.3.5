@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design management index page designs renders designs list 1`] = `
+<div>
+  <uploadform-stub
+    all-versions=""
+    canuploaddesign="true"
+  />
+   
+  <div
+    class="mt-4"
+  >
+    <designlist-stub
+      designs="design"
+    />
+  </div>
+   
+  <router-view-stub />
+</div>
+`;
+
+exports[`Design management index page designs renders empty text 1`] = `
+<div>
+  <!---->
+   
+  <div
+    class="mt-4"
+  >
+    <glemptystate-stub
+      description="Upload and view the latest designs for this issue. Consistent and easy to find, so everyone is up to date."
+      title="The one place for your designs"
+    />
+  </div>
+   
+  <router-view-stub />
+</div>
+`;
+
+exports[`Design management index page designs renders error 1`] = `
+<div>
+  <!---->
+   
+  <div
+    class="mt-4"
+  >
+    <div
+      class="alert alert-danger"
+    >
+      
+      An error occurred while loading designs. Please try again.
+    
+    </div>
+  </div>
+   
+  <router-view-stub />
+</div>
+`;
+
+exports[`Design management index page designs renders loading icon 1`] = `
+<div>
+  <!---->
+   
+  <div
+    class="mt-4"
+  >
+    <glloadingicon-stub
+      color="orange"
+      label="Loading"
+      size="md"
+    />
+  </div>
+   
+  <router-view-stub />
+</div>
+`;

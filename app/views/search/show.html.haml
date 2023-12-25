@@ -1,0 +1,13 @@
+- @hide_top_links = true
+- page_title @search_term
+- @hide_breadcrumbs = true
+
+.page-title-holder.d-flex.align-items-center
+  %h1.page-title<
+    = _('Search')
+
+.prepend-top-default
+  = render 'search/form'
+- if @search_term
+  = render 'search/category'
+  = render 'search/results'

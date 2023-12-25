@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design management design index page renders design index 1`] = `
+<div
+  class="design-detail fixed-top w-100 position-bottom-0 d-sm-flex justify-content-center"
+>
+  <glloadingicon-stub
+    class="align-self-center"
+    color="orange"
+    label="Loading"
+    size="xl"
+  />
+</div>
+`;
+
+exports[`Design management design index page sets loading state 1`] = `
+<div
+  class="design-detail fixed-top w-100 position-bottom-0 d-sm-flex justify-content-center"
+>
+  <glloadingicon-stub
+    class="align-self-center"
+    color="orange"
+    label="Loading"
+    size="xl"
+  />
+</div>
+`;
